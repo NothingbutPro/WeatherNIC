@@ -1,0 +1,45 @@
+[versions]
+agp = "8.3.0-alpha12"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+constraintlayout = "2.1.4"
+nav_version = "2.7.5"
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+intuit-sdp = { group = "com.intuit.sdp", name = "sdp-android", version = "1.1.0" }
+intuit-ssp = { group = "com.intuit.ssp", name = "ssp-android", version = "1.1.0" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "nav_version" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "nav_version" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "nav_version" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "nav_version" }
+navigation-dynamic-features-fragment = { group = "androidx.navigation", name = "navigation-dynamic-features-fragment", version.ref = "nav_version" }
+navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "nav_version" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version = "2.9.0" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version = "2.9.0" }
+dagger-hilt-android = { group = "com.google.dagger", name = "hilt-android", version = "2.48.1" }
+dagger-hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version = "2.48.1" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.12.0" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version = "18.2.0" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version = "32.5.0" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version = "21.0.1" }
+work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version = "2.8.1" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "kotlin-kapt", version.ref = "kotlin" }
+dagger-hilt-android-plugin = { id = "dagger.hilt.android.plugin", version = "2.48.1" }
+google-services = { id = "com.google.gms.google-services", version = "4.3.10" }
+mapsplatform-secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version = "2.0.0" }
+

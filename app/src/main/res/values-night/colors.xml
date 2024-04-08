@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color_0a0d1e">#0A0D1E</color>
+    <color name="col_textcolor_e1e2e4">#E1E2E4</color>
+    <color name="color_white_70">#FFFFFF</color>
+    <color name="color_E1E2E4_100">#E1E2E4</color>
+    <color name="color_white_60">#99FFFFFF</color>
+    <color name="text_color_blue_100">#0F44E9</color>
+    <color name="colorLightText">#C2C9D1</color>
+    <color name="col_textcolor_FFFFFF_B3">#B3FFFFFF</color>
+    <color name="view_line_color_707070">#707070</color>
+</resources>

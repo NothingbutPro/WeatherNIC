@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="blocked_apps">BLOCKED APPS</string>
+</resources>

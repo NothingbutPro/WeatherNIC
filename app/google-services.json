@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671740706776",
+    "project_id": "indianicweather",
+    "storage_bucket": "indianicweather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671740706776:android:1358f4893b04989b4c7cad",
+        "android_client_info": {
+          "package_name": "com.parag.indianicweather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHpOMstO5gU3fHOzZkOAcoaDPClAaDL_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

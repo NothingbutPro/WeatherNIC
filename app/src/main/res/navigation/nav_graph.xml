@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_fragment_welcome"
+    android:id="@+id/nav_graph.xml">
+
+    <fragment
+        android:id="@+id/nav_fragment_welcome"
+        android:name="com.parag.indianicweather.onboarding.fragments.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+
+        <action
+            android:id="@+id/action_welcome_to_login_to_fragment_send_mobile_number"
+            app:destination="@id/nav_fragment_otp_verification" />
+    </fragment>
+
+
+    <fragment android:name="com.parag.indianicweather.onboarding.fragments.WeatherFragment"
+        android:id="@+id/nav_fragment_otp_verification"
+        android:label="nav_fragment_otp_verification"
+        tools:layout="@layout/fragment_weather"
+        >
+
+    </fragment>
+
+</navigation>
