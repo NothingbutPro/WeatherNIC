@@ -124,8 +124,17 @@ class WelcomeActivity : AppCompatActivity() {
     fun hasPermissions(context: Context) = AppConstant.LOCATION_PERMISSIONS_REQUIRED.all {
         ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
     }
-    override fun onResume() {
+   override fun onResume() {
         super.onResume()
+        GpsUtils(this).turnGPSOn(object : GpsUtils.onGpsListener {
+            override fun gpsStatus(isGPSEnable: Boolean) {
+                // turn on GPS
+                Log.e("GpsUtils", "IS enabled")
+                checkPermission();
+//                checkLocationPermission()
+
+            }
+        })
     }
 
 
